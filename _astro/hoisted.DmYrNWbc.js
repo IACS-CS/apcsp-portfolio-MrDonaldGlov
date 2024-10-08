@@ -27,7 +27,7 @@ const Particles = /*@__PURE__*/getDefaultExportFromCjs(particles_minExports);
 console.log('Imported',Particles);
 var particles = Particles.init({
 	selector: '.background',
-  color: ['#DA0463', '#404B69','pink','orange','grey','#c6093b','#0033a0'],
+  color: ['green', 'red'],
   connectParticles: false,
   sizeVariation: 1000,
   maxParticles : 1000,
@@ -56,6 +56,7 @@ console.log("Hello world, from main.js!");
 if (typeof window !== "undefined") {
 Aos.init();
   // MOST of your code should go.
+  
   //
   // If you see a SSR error, try moving your code here!
   console.log("Hello world, browser :-)");
