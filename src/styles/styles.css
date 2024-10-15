@@ -2,14 +2,15 @@
 
 body {
   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 html, body { height: 100% }
 
-<img src="public/images/pexels-felixmittermeier-956999.jpg" alt="Description of Image"> 
+
 
 
 .background {
-  position: absolute;
+  position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
@@ -17,4 +18,8 @@ html, body { height: 100% }
   z-index: -1;
   width: 100%;
   height: 100%;
+  background-image: url("public/images/pexels-felixmittermeier-956999.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
