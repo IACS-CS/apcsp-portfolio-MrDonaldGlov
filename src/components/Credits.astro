@@ -4,12 +4,11 @@ import Page from "./Page.astro";
 let { title, assignment } = Astro.props;
 ---
 
-
 <Page title={title}>
   <div class="container">
     <header>
       <h1>
-        Project: {title}
+        {title}
       </h1>
       <nav>
         <a href="../../">Back to Portfolio</a>
@@ -17,8 +16,12 @@ let { title, assignment } = Astro.props;
     </header>
     <article>
       <p>
-        Assignment: {assignment}
+        Credits and thanks too Mr hinkle for the help on instalations and
+        Achnowldegements for PicoCSS for improved text,AOS for fade
+        in's, particlesjs for background particles and felix mitter for the
+        image.
       </p>
+      <p>Big Bran's Portfolio by Brandon Dias is marked with CC0 1.0</p>
       <hr />
       <slot />
     </article>
